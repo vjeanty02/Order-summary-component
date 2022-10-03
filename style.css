@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/*Color*/
+.color-primary
+{
+  color:hsl(225, 100%, 94%);
+}
+.back-color-primary
+{
+  background-color: hsl(225, 100%, 94%);
+}
+.color-secondary
+{
+    color: hsl(245, 75%, 52%)
+}
+.back-color-secondary
+{
+  background-color: hsl(245, 75%, 52%)
+}
+.very-pale-blue
+{
+  color: hsl(225, 100%, 98%);
+}
+.Desaturated-blue
+{
+  color: hsl(224, 23%, 55%);
+}
+.dark-blue
+{
+    color: hsl(223, 47%, 23%);
+}
+.back-white
+{
+  background-color: hsl(0, 0%, 100%);
+}
+.white
+{
+  color: hsl(0, 0%, 100%);
+}
+
+
+/*Font*/
+.red-hat-display
+{
+  font-family: 'Montserrat', Courier, monospace;
+}
+
+/*display*/
+.flex
+{
+  display: flex;
+}
+.flex-column
+{
+  display: flex;
+  flex-direction: column;
+}
+.flex-column-center
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+}
+.flex-column-between
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    gap:10px
+  }
+  
+  main 
+  {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .card-order-summary
+  {
+    display: flex;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  
