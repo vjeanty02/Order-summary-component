@@ -110,7 +110,8 @@
   
 main 
 {
-  background-image:url(images/pattern-background-desktop.svg);
+  background:url(images/pattern-background-desktop.svg);
+  background-repeat:repeat-x;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -170,6 +171,7 @@ main
   transition: 0.25s;
   margin-top: 10px;
   font-weight: 700;
+  box-shadow: 0px 20px 13px 0px hsl(244, 100%, 93%);
 }
 .card-order-summary .btn-payment:hover {
 	opacity: 0.7;
@@ -181,11 +183,74 @@ main
   transition: 0.25s;
   opacity: 0.6;
   font-weight: 900;
-  padding: 10px;
+  margin: 10px;
 }
 .card-order-summary .btn-cancel:hover {
   opacity:1;
 }
 
-/*Front-end Mentor*/
+
+@media all and (min-width: 0px) and (max-width: 600px)
+{
+  .card-order-summary
+  {
+    width: 330px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  main
+  {
+    background:url(images/pattern-background-mobile.svg);
+    background-repeat: repeat-x;
+    position: absolute;
+  }
+  .container-image-order-summary img
+  {
+    width: 330px;
+    height: auto;
+  }
+  .description-order-summary
+  {
+    padding: 30px 20px;
+  }
+  .card-order-summary p
+  {
+    font-size: 15px;
+  }
+  .card-order-summary h1
+  {
+    font-size: 20px;
+  }
+  .card-order-summary h3
+  {
+    font-size: 14px;
+  }
+  .card-order-summary a
+  {
+    font-size: 14px;
+  }
+  .card-order-summary button 
+  {
+    font-size: 14px;
+  }
+  .card-annual-plan
+  {
+    padding: 15px;
+  }
+
+  
+  footer
+  {
+    display: none;
+  }
+
+  header
+  {
+    display: none;
+  }
+
+
+}
+
 
