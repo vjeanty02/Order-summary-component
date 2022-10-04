@@ -22,8 +22,11 @@ Users should be able to:
 
 ### Screenshot
 
+<<<<<<< HEAD
 ![](./screenshot.jpg)
 
+=======
+>>>>>>> 24aadaebcfdd37f110a8768065b4fd2a9a21df90
 
 ### Links
 
@@ -37,7 +40,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+<<<<<<< HEAD
 - Mobile-first workflow
+=======
+>>>>>>> 24aadaebcfdd37f110a8768065b4fd2a9a21df90
 - [Styled Components](https://styled-components.com/) - For styles
 
 ## Author
